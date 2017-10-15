@@ -5,6 +5,7 @@ function setup() {
 
 function draw() {
   background(255,0,255);
+  fill(0,255,255);
   ellipse(300,300,frameCount/20,frameCount/20);
   console.log(frameCount);
 }
